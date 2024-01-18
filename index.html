@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>KANTUK</title>
+</head>
+<body>
+    <header>
+        <h1><span class="large-text">KANTUK</span> Kalkulator Bentuk</h1>
+        <h2>Kalkulator Luas dan Keliling Persegi</h1>
+        <h4>Welcome to kalkulator bentuk</h4>
+        <p>Web sederhana ini berfungsi untuk menghitung luas dan keliling persegi</p>
+    </header>
+    <img src="gambar_persegi.png" alt="Gambar Persegi" class="gambar-persegi">
+
+    <div class="inputSection">
+        <label for="sisi" id="sideLenght">Panjang Sisi:</label>
+    <input type="number" id="sisi" placeholder="Masukkan panjang sisi">
+    </div>
+    <div class="buttons">
+        <button onclick="hitung()" id="countButton">Hitung</button>
+        <button onclick="reset()" id="resetButton">Reset</button>
+    </div>
+    <div id="hasil">
+        <p id="luas">Luas Persegi: -</p>
+        <p id="keliling">Keliling Persegi: -</p>
+      </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
